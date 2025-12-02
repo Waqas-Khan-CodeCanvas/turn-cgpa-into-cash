@@ -51,6 +51,21 @@ def predict():
     pred = model.predict(scaler.transform([[cgpa]]))[0]
     return jsonify({'package': round(float(pred), 2)})
 
+# ===== university project pages =====
+@app.route('/abstract')
+def abstract():
+    return render_template('abstract.html')
+
+@app.route('/methodology')
+def methodology():
+    return render_template('methodology.html')
+
+@app.route('/conclusion')
+def conclusion():
+    return render_template('conclusion.html')
 # ---------- entry ----------
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+    

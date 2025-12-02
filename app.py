@@ -65,7 +65,7 @@ def conclusion():
     return render_template('conclusion.html')
 # ---------- entry ----------
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 
 
     

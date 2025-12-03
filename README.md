@@ -12,6 +12,18 @@
 
 ---
 
+## 🚀 Live Deployment
+
+Click below to use the app:
+
+🔗 **https://placement-predictor-production.up.railway.app/**
+
+[![Live App](https://img.shields.io/badge/Railway-Live%20App-success?style=flat-square)](https://placement-predictor-production.up.railway.app/)
+
+---
+
+---
+
 ##  Features
 - Predicts placement package (LPA) from CGPA  
 - Fast, single-page UI  
